@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace PokerHandSorter.Compapers
 {
-    public class CardCountByValueCompaper : IEqualityComparer<CardCountByValue>
+    public class CardCountByValueComparer : IEqualityComparer<CardCountByValue>
     {
         public bool Equals(CardCountByValue x, CardCountByValue y)
         {

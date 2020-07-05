@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Compapers\CardCountByValueCompaper.cs" />
+    <Compile Include="Comparers\CardCountByValueComparer.cs" />
     <Compile Include="Models\Card.cs" />
     <Compile Include="Models\CardCountByValue.cs" />
     <Compile Include="Program.cs" />

@@ -25,7 +25,7 @@ namespace PokerHandSorter.Utils
                     Value = playerCard.Value,
                     Count = _playerCards.Count(card => card.Value == playerCard.Value)
                 };
-            }).Distinct(new CardCountByValueCompaper())
+            }).Distinct(new CardCountByValueComparer())
             .OrderByDescending(order => order.Count);
         }
 
